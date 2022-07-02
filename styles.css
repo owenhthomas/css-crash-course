@@ -1,3 +1,24 @@
+body{
+    background-color: rgb(197, 197, 197);
+    color: darkviolet;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*Same as above*/
+    /*font: normal 14px  Verdana, Geneva, Tahoma, sans-serif;*/
+
+    line-height: 1.8em;
+}
+
 h1{
-    color:purple;
+    color: rgb(82, 92, 238);
+    font-size: 72px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box-1{
+    background-color: aliceblue;
+    color: crimson;
 }
