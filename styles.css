@@ -9,11 +9,11 @@ body{
     /*font: normal 14px  Verdana, Geneva, Tahoma, sans-serif;*/
 
     line-height: 1.8em;
+    margin: 0px;
 }
 
 h1{
-    color: rgb(82, 92, 238);
-    font-size: 72px;
+    font-size: 32px;
     font-weight: bold;
     font-style: italic;
 }
@@ -21,4 +21,19 @@ h1{
 .box-1{
     background-color: aliceblue;
     color: crimson;
+
+    border-left: 5px crimson solid;
 }
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-2{
+    background-color: aliceblue;
+    color: crimson;
+
+    border: 5px rgb(255, 93, 255) solid;
+}
+
