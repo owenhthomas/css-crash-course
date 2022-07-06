@@ -12,6 +12,23 @@ body{
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color: indigo;
+}
+
+a:visited{
+    color: salmon;
+}
+
 h1{
     font-size: 32px;
     font-weight: bold;
@@ -23,6 +40,12 @@ h1{
     color: crimson;
 
     border-left: 5px crimson solid;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: 20px;
 }
 
 .container{
@@ -35,5 +58,43 @@ h1{
     color: crimson;
 
     border: 5px rgb(255, 93, 255) solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-right-style: dashed;
+    padding: 3px;
 }
 
+.box-1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-transform: lowercase;
+    letter-spacing: 0.3em;
+    word-spacing: 2em;
+}
+
+.categories{
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.categories h2{
+    text-align: end;
+    text-decoration: underline;
+}
+
+.categories ul{
+    padding: 2%;
+    list-style: circle;
+}
+
+.categories li{
+    padding: bottom 5px; 
+    border-bottom:solid 1px slateblue;
+    list-style-image: url(#);
+}
